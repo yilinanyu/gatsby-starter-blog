@@ -1,17 +1,22 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    title: `Beauty Who Invest`,
+    author: `Lina Yi`,
+    about: `Beauty Who Invest is a platform for helping people achieve financial freedom, find destiny and glory. My mission is to provide step by step guides, light and powerful tool, consistent action items, dedicated consult service to bring happiness, health, and mindfulness to your life. `,
+    description: `A Gatsby Blog`,
+    siteUrl: `https://storyhub-agency-tarex.redq.now.sh/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        minify: false, // Breaks styles if not set to false
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,6 +39,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              linkImagesToOriginal: true,
             },
           },
           {
@@ -42,42 +48,96 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-mermaid`,
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+          },
+
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+          {
+            resolve: `gatsby-remark-smartypants`,
+          },
+          {
+            resolve: `gatsby-remark-reading-time`,
+          },
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `StoryHub - Agency Blog`,
+        short_name: `StoryHub`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-plugin-offline`,
+    },
+    {
+      resolve: `gatsby-plugin-react-helmet`,
+    },
+    {
+      resolve: `gatsby-plugin-typescript`,
+    },
+    {
+      resolve: `gatsby-plugin-lodash`,
+    },
+    {
+      resolve: `gatsby-source-instagram`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        // username: ,
+        // access_token: ,
+        // instagram_id: ,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`300`, `400`, `500`, `600`, `700`],
+          },
+          {
+            family: `Fira Sans`,
+            variants: [`100`, `300`, `400`, `500`, `600`, `700`],
+          },
+        ],
+      },
+    },
   ],
 }
