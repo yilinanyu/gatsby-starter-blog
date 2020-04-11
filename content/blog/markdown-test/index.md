@@ -1,199 +1,56 @@
 ---
-title: This is markdown unity test!
+title: What I Learned From CV-19
 date: '2019-04-22'
-tags: ['markdown', 'test', 'unity']
-cover: './preview.png'
+tags: ['grateful', 'CV-19', 'dream']
+cover: './grateful.jpg'
 ---
 
-Documentation stored with source files shares the same permissions.
-Documentation stored in a separate Git repository can use different
-access controls. If Gerrit Code Review is being used, branch level
-read permissions can be used to grant or restrict access to any
-documentation branches.
+As we all known, due to historical CV19, most of our life get affected in this way or other. But if's the universe has a reason for that, have you think about what would that be?
 
-## READMEs
+I am a big believer in "Secret" mindset. I do believe something comes in with a particular reason. If CV19 is what we attracted, what it wants to bring to our life? I cannot talk to lots of people; for myself, here are how things get changed. 
 
-Files named `README.md` are automatically displayed below the file's
-directory listing. For the top level directory this mirrors the
-standard [GitHub](https://github.com/) presentation.
+1. Grateful for lots of things. 
 
-\*\*\* promo
-README.md files are meant to provide orientation for developers
-browsing the repository, especially first-time users.
+Grateful for my job, before, I have been through a particular phase when you don't like the job I do: I think I can do better than that, the position I am doing not creative and boring, etc. Lots of people are losing their jobs. But for myself, I can use all the hardware brought from work and enjoying the best, most cooling technology. And woke up at 9 am and working from home wearing pajama with food on the table, plus getting opportunities to learn, lead, share. 
 
----
+Grateful for lots of things I take granted for. I am thankful for I have a lovely place to stay, fresh food delivered to home. When sanitizing or cooking these, I become more grateful for all the meals, fresh nutritions I got and even become a better chef :) 
 
-We recommend that Git repositories have an up-to-date top-level
-`README.md` file.
+Right now, the first thing I do to start my day is writing my "grateful journey" by listing five things I grateful for every day. 
 
-## Markdown syntax
+2. Connect with your loved one. 
 
-Gitiles supports the core Markdown syntax described in
-[Markdown Basics]. Additional extensions are supported
-to more closely match [GitHub Flavored Markdown] and
-simplify documentation writing.
+Stay home with your loved one. Enjoy the moment better. I used to talk with my parents maybe only once a week, now gets more often. Start taking caring, connecting to your loved one more than we used to.
 
-[markdown basics]: http://daringfireball.net/projects/markdown/basics
-[github flavored markdown]: https://help.github.com/articles/github-flavored-markdown/
+3. Get More Time to Work on Hobby:
 
-```js
-import Typography from 'typography'
+Since we got more time to spend, I started my progress for the project I always want to do, here it is, writing is one of them. 
 
-const typography = new Typography({
-  baseFontSize: '18px',
-  baseLineHeight: 1.666,
-  headerFontFamily: ['Avenir Next', 'Helvetica Neue', 'Arial', 'sans-serif'],
-  bodyFontFamily: ['Georgia', 'serif'],
-  // See below for the full list of options.
-})
+4. Take care of your body More:
 
-// Output CSS as string.
-typography.toString()
+Nothing is more important than your body, start making better skincare and body care, and work out routine. Since I know, one day, we will still come out to see the world with glowing skin and fit and healthy body. 
 
-// Or insert styles directly into the <head> (works well for client-only
-// JS web apps.
-typography.injectStyles()
-```
+5. Be a cleaner person:
 
-```html
-<h1>Sample JavaScript</h1>
-<div class="gatsby-highlight">
-  <pre class="language-jsx">
-    <code>
-      <!-- Embedded content here ... -->
-    </code>
-  </pre>
-</div>
+Wash your hand, and take a shower. Now it's essential. 
 
-<h1>Sample HTML</h1>
-<div class="gatsby-highlight">
-  <pre class="language-html">
-    <code>
-      <!-- Embedded content here ... -->
-    </code>
-  </pre>
-</div>
-```
+6. Make some home improvement projects. 
 
-```js
-var rows = prompt('How many rows for your multiplication table?')
-var cols = prompt('How many columns for your multiplication table?')
-if (rows == '' || rows == null) rows = 10
-if (cols == '' || cols == null) cols = 10
-createTable(rows, cols)
-function createTable(rows, cols) {
-  var j = 1
-  var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>"
-  for (i = 1; i <= rows; i++) {
-    output = output + '<tr>'
-    while (j <= cols) {
-      output = output + '<td>' + i * j + '</td>'
-      j = j + 1
-    }
-    output = output + '</tr>'
-    j = 1
-  }
-  output = output + '</table>'
-  document.write(output)
-}
-```
+I used to think the home may stay 1-2 years, don't need to invest more, but now I think, if you not in the mode of dream home mode, dream home will not come. Also, we don't know when you will be out of the shelter. So wherever you live, be respectful to, and make yourself happy for where your body and soul live. 
 
-### Table
+7. Start using reusable products
 
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
+I used to not a big fan of reusable products. I thought the composed products had brought us productivity and efficiency. But due to all the toiler paper shortage, start thinking, do we need all of those? I begin using kitchen towels rather than a paper towel, also thinking maybe upgrade the toiler to water flush. 
 
-Right aligned columns
+8. Spend money on something that you really need. 
 
-| Option |                                                               Description |
-| -----: | ------------------------------------------------------------------------: |
-|   data | path to data files to supply the data that will be passed into templates. |
-| engine |    engine to be used for processing templates. Handlebars is the default. |
-|    ext |                                      extension to be used for dest files. |
+Since staying home order, you may realize your monthly expense reduced somehow. It's the right time to recognize what you should spend in your life. Be a clean, neat, minimalistic person, thinking if you need something. 
 
-### Lists
+That's 8 things I have changed; if you scan the words above, most of the words i have seen is "More". Overall I am more than happy to stay home enjoying the moment we got. I do believe everything that happens is a good thing; it will guide you to where you want to go. It's just a matter of time and matters of finding it out. Everything you are dreaming of, it may already be in your life. Be aware, the dream you have is a feeling rather than an object.  That feeling and memory can stay with you forever. 
 
-A bullet list:
+Talking an example from my dream list #1  ", I want a two-floor house, with an office room and workout room." 
 
-```
-* Fruit
-    * Orange
-    * Pear
-* Cake
-```
+Do I have it now? Yes, I live in the second-floor condo, which is on the second floor. Yes, I share with the story with the neighbor, with a guest room I can use for office room and workout place. The real thing I want under that dream is not the object of  "Two-floor house with office room and workout place " is just a productive and healthy, clean lifestyle and a place full of love. 
 
-will render into HTML as:
+Dream list #2: "I want to be the best seller in the New York Times":  Do I have it now? Yes, I only have written two articles so far, but I can bring the knowledge and energy to people around me during daily life, to people I know, to people I care about. Since influencing people in a good way is what I want in the end, it's just a matter of time and size. 
 
-- Fruit
-  - Orange
-  - Pear
-- Cake
-
-The second level items (above Orange, Pear) must be indented with more
-spaces than the item they are nested under. Above 2 spaces were used.
-Additionally, the entire list must be preceded and followed by a blank
-line.
-
-A numbered list:
-
-```
-1. Fruit
-     1. Orange
-     2. Pear
-2. Cake
-```
-
-will render into HTML as:
-
-1. Fruit
-   1. Orange
-   2. Pear
-2. Cake
-
-### Blockquotes
-
-Sir Winston Churchill once said:
-
-> A lie gets halfway around the world before the truth has a
-> chance to get its pants on.
-
-### Mathematical expressions
-
-You can render LaTeX mathematical expressions.
-
-The _Gamma function_ satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-### UML diagrams
-
-You can render UML diagrams, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-
-Libraries often attempt to remain neutral in the resulting debates, but that neutrality is predicated on the idea that the debates are taking place on a post-enlightenment playing field and that, eventually, the best ideas will succeed. Or at least that, over time, reasonable people will develop a shared set of facts and tools for assessing and discussing that reality. This allows the library to accomplish good for its users by providing access
+Same with mine, think of what you want. What's more important is figure out what's is the reason underneath. Then start enjoying the current moment in every single way, embrace life. Make every day the best version of yourself, assuming you are the actress/actor in your own movie. Once you have figured those things out, you will be in Autopilot mode (Disclose, Tesla is my dream list) :D 
