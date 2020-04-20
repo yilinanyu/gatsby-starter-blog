@@ -93,6 +93,12 @@ module.exports = {
       resolve: `gatsby-plugin-feed`,
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://beautywhoinvest.us4.list-manage.com/subscribe/post?u=21e8026e765abb9dfd24e1220&amp;id=d133f375bc', // add your MC list endpoint here; see instructions below
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `StoryHub - Agency Blog`,
