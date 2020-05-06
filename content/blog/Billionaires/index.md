@@ -1,5 +1,5 @@
 ---
-title: Business 101 - Takeaway from Undercover Bilionares
+title: Business 101 - Takeaway from Undercover Billionaires
 date: '2019-04-22'
 tags: ['undercover billionares', 'business 101', 'dream']
 cover: './billionares.jpg'
