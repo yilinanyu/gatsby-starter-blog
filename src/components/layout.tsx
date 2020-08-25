@@ -6,7 +6,6 @@ import Navbar from "./Navbar/Navbar"
 import Newsletter from "./Newsletter/Newsletter"
 import Footer from "./Footer/Footer"
 import ScrollUpButton from "./ScrollUpButton/ScrollUpButton"
-import InstagramShowcase from "../containers/InstagramShowcase"
 import ResetCss from "./resetCSS"
 import { theme } from "../theme"
 
@@ -24,8 +23,6 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {
         </Sticky>
 
         {children}
-
-        {process.env.INSTAGRAM_TOKEN == "" ? "" : <InstagramShowcase />}
         <Newsletter />
         <Footer>
           Copyright &copy; {new Date().getFullYear()}

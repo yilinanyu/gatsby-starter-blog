@@ -123,14 +123,6 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: 8556131572
-        // access_token: ,
-        // instagram_id: ,
-      },
-    },
-    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
