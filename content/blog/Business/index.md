@@ -16,7 +16,7 @@ My dream has never changed. The focus of my blog has always been to help people 
 
 The Chrome Extension is handy when you are looking for a house one by one, but it's not that efficient when you are analyzing the properties in bulk. This is when we came up with the idea of Real Cash App, the product that I have been meaning to introduce to you. We have been working on this app for a while now and I am very proud to introduce it to you today. 
 
-We have received a lot of users already and we haven’t even officially announced it yet. That really excites me! I took a peek at some of the property cash flow results of some users and a lot of properties have cash flows more than $1,000 a month with less than $30,000 down payment. Isn't it beautiful to start your journey with this tool?
+We have received a lot of users already and we haven’t even officially announced it yet. That really excites me! I took a peek at some of the property cash flow results of some users and a lot of properties have cash flows more than 1,000 dollar a month with less than $30,000 down payment. Isn't it beautiful to start your journey with this tool?
 
 Try it out today! I will really appreciate your feedback!
 
